@@ -56,11 +56,13 @@ h2 {
     margin-right: .5rem;
 }
 
+
+
 .cv-container {
     display: grid;
-    grid-template-columns: 0.6fr 1fr 1fr;
+    grid-template-columns: 0.6fr 1fr 1fr; /* Colonne gauche */
     grid-template-areas: "left-column right-column right-column";
-    width: 1400px;
+    width: 90%; /* marge page */
     margin: 100px auto;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
@@ -90,7 +92,6 @@ h4.skills {
 }
 
 ul.skills {
-
     list-style-type: none;
     padding: 0;
     font-size: 12px;
@@ -102,7 +103,7 @@ ul.skills {
 .right-column {
     grid-area: right-column;
     display: grid;
-    grid-template-rows: 305px 1fr;
+    grid-template-rows: 200px 1fr; /* bandeau */
     grid-template-areas:
         "header"
         "content";
