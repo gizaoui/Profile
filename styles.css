@@ -19,11 +19,7 @@
     padding: 10px;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+
 
 .main-head {
     grid-area: header;
@@ -39,7 +35,6 @@ nav ul {
 }
 
 
-
 .main-head h2 {
     margin: 0 0 1rem 0;
     letter-spacing: 1px;
@@ -53,10 +48,11 @@ nav ul {
     padding: 20px;
 }
 
-
-
-
-
+.main-nav h2 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 .wrapper {
     display: grid;
