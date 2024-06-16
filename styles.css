@@ -19,8 +19,6 @@
     padding: 10px;
 }
 
-
-
 .main-head {
     grid-area: header;
     background-color: #F2F2F2;
@@ -33,7 +31,6 @@
 .main-head .text-blue {
     color: #4472C4;
 }
-
 
 .main-head h2 {
     margin: 0 0 1rem 0;
@@ -113,7 +110,6 @@ h1 {
     margin-bottom: 12px
 }
 
-
 .text-uppercase {
     text-transform: uppercase;
 }
@@ -147,8 +143,6 @@ fieldset {
     border-radius: 25px;
     padding: 10px 10px 30px 20px;
 }
-
-
 
 .content fieldset {
     border: 1px solid rgb(184, 183, 183);
