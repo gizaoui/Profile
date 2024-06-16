@@ -60,29 +60,17 @@
         "content";
 }
 
-.section,
-fieldset {
-    margin-bottom: 2em;
-}
-
-.content .section {
-    border: 1px solid rgb(184, 183, 183);
-    border-radius: 25px;
-    padding: 10px 10px 30px 20px;
-}
-
-
 .text-blue  {
     color: #4472C4;
     text-transform: uppercase;
 }
 
-.text-blue h2  {
+article .text-blue  {
     font-weight: bold;
     font-size: 19px;
 }
 
-.text-blue h3  {
+legend >.text-blue {
     font-weight: bold;
     font-size: 17px;
 }
@@ -130,9 +118,9 @@ ul.skills {
     margin: 0 10px;
 }
 
-.section,
+
 fieldset {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .content .text-darkblue {
@@ -146,7 +134,7 @@ fieldset {
 
 .content fieldset {
     border: 1px solid rgb(184, 183, 183);
-    padding: 10px 10px 20px 20px;
+    padding: 0px 10px 20px 20px;
     border-radius: 10px;
 }
 
