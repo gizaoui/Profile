@@ -173,7 +173,7 @@ fieldset {
     margin: 50px auto;
 }
 
-@media (min-width: 870px) {
+@media (min-width: 1300px) {
     .wrapper {
         grid-template-columns: 2fr 5fr;
         grid-template-rows: 1fr auto;
