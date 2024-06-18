@@ -68,6 +68,10 @@ ul.experience-list {
     margin: 20px;
 }
 
+ul.experience-list li {
+    margin-bottom: 5px;
+}
+
 h3.skills {
     font-size: 15px;
 }
