@@ -1,114 +1,75 @@
+/* https://developer.mozilla.org/en-US/play */
+
 * {
     box-sizing: border-box;
-    font-family: Roboto;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 1.7;
 }
 
-.wrapper {
-    max-width: 1500px;
-    margin: 0 auto;
-    font:
-        1.2em Helvetica,
-        arial,
-        sans-serif;
-}
-
-.wrapper>* {
-    padding: 10px;
-}
-
-.main-head {
-    grid-area: header;
-    background-color: #F2F2F2;
-}
-
-.main-head h1 .text-blue {
-    font-size: 37px;
-}
-
-.main-head .text-blue {
+.text-blue {
     color: #4472C4;
 }
 
-.main-head h2 {
-    margin: 0 0 1rem 0;
-    letter-spacing: 1px;
-    font-size: 27px;
+.text-darkblue {
+    color: #043baa;
 }
 
-.main-nav {
-    grid-area: nav;
-    background-color: #4472C4;
-    color: white;
-    padding: 20px;
+.text-white {
+    color: #ffffff;
 }
 
-.main-nav h2 {
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.wrapper {
-    display: grid;
-    gap: 1px;
-    grid-template-areas:
-        "header"
-        "nav"
-        "content";
-}
-
-
-
-article .text-blue  {
-    color: #4472C4;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 19px;
-}
-
-legend >.text-blue {
-    color: #4472C4;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 17px;
+i.icon {
+    padding-right: 10px;
 }
 
 a {
     text-decoration: none;
-    color: #4472C4;
+    color: inherit;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-fieldset a {
-    color: black;
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+h2  {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 p {
-    margin: 0 0 1rem;
+    font-size: 14px;
 }
 
-h1 {
-    margin: 0 0 1rem;
-    font-size: 37px;
-    margin-bottom: 12px
+fieldset {
+    border: 1px solid rgb(184, 183, 183);
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
-.text-uppercase {
+legend {
     text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    color: #4472C4;
 }
 
-.icon {
-    margin-right: .5rem;
+ul.context-list li {
+    padding-bottom: 5px;
 }
 
-h4.skills {
-    margin: 10px 0px 0px 10px;
+ul.experience-list {
+    list-style-type: disc;
+    margin: 20px;
+}
+
+h3.skills {
+    font-size: 15px;
 }
 
 ul.skills {
@@ -120,47 +81,52 @@ ul.skills {
 }
 
 
+/* ================================================ */
 
-.content .text-darkblue {
-    color: #043baa;
+.main-head {
+    grid-area: header;
+    background-color: #F2F2F2;
 }
 
-.content .section {
-    border-radius: 25px;
-    padding: 10px 10px 30px 20px;
-}
-
-.content fieldset {
-    border: 1px solid rgb(184, 183, 183);
-    padding: 20px 50px 20px 20px;
-    border-radius: 10px;
-    margin: 30px 0px 40px 0px;
-}
-
-.content legend {
-    padding: 0px 5px 0px 5px;
-}
-
-.experience-list {
-    list-style-type: disc;
+.main-nav {
+    grid-area: nav;
+    background-color: #4472C4;
+    color: #ffffff;
 }
 
 .content {
-    grid-area: content;
-    margin: 50px auto;
+    grid-area: article;
+    background-color: #ffffff;
 }
 
-@media (min-width: 1600px) {
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    font:
+        1.2em Helvetica,
+        arial,
+        sans-serif;
+}
+
+.wrapper>* {
+    padding: 10px;
+}
+
+.wrapper {
+    display: grid;
+    gap: 0;
+    grid-template-areas:
+        "header"
+        "nav"
+        "article"
+}
+
+
+@media (min-width: 700px) {
     .wrapper {
         grid-template-columns: 2fr 5fr;
-        grid-template-rows: 1fr auto;
         grid-template-areas:
-            "nav    header"
-            "nav    content"
-    }
-
-    .content {
-        padding: 50px;
-        margin: 5px auto;
+            "nav header"
+            "nav article";
     }
 }

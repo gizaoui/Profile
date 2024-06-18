@@ -1,82 +1,78 @@
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>Gilles ZAOUI</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 
-
-
 <body>
     <div class="wrapper">
-        <header class="main-head">
 
-            <h1>Gilles <span class="text-blue text-uppercase">ZAOUI</span></h1>
-            <h2>Concepteur développeur /<br>Administrateur Linux & Bases de données</h2>
+        <header class="main-head">
+            <h1>Gilles <span class="text-blue">ZAOUI</span></h1>
+            <h3>Concepteur développeur<br>Administrateur Linux & Bases de données</h3>
             <ul class="infos">
-                <li><i class="icon fas fa-at text-blue"></i> <a href="mailto:gizaoui@gmail.com">gizaoui@gmail.com</a></li>
-                <li><i class="icon fas fa-phone text-blue"></i> 06 84 37 12 28</li>
+                <li><i class="icon fas fa-at text-blue"></i><a href="mailto:gizaoui@gmail.com">gizaoui@gmail.com</a></li>
+                <li><i class="icon fas fa-phone text-blue"></i>06 84 37 12 28</li>
                 <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/N3tarbYqLNQjZHj28" target="_blank">Cagnes sur mer (06)</a></li>
             </ul>
         </header>
 
         <nav class="main-nav">
-            <div class="section">
-                <p>
-                    <i class="icon fab fa-github text-darkblue"></i> <a style="color: white" href="https://github.com/gizaoui" target="_blank">github.com</a><br>
-                    <i class="icon fab fa-docker text-darkblue"></i> <a style="color: white" href="https://hub.docker.com/search?q=gizaoui" target="_blank">hub.docker.com</a>
-                </p>
-            </div>
-            <div class="section">
-                <h2>a propos</h2>
-                <p>
-                    Issu d’une formation en génie électrique, j’ai décidé de me reconvertir en informatique au début des
-                    années 2000. Cela m’a permis de découvrir un monde passionnant en constante évolution.
-                </p>
-                <p>
-                    Cette envie de découvrir s’est poursuivie tout au long de ma vie professionnelle. J’ai ainsi pris en
-                    charge de nombreux projets de leurs conceptions à leurs réalisations. Mes connaissances dans
-                    différents domaines me confèrent une aisance à communiquer et à faire aboutir l’ensemble de mes
-                    projets.
-                </p>
-            </div>
-            <div class="section">
-                <h2>langues</h2>
-                <p>
-                    Français, langue maternelle
-                    <br>
-                    Anglais, compétence professionnelle
-                </p>
-            </div>
-            <!--
-            <div class="section">
-                <h2>Centres d'intérêt</h2>
-            </div>
-            -->
+
+            <ul>
+                <li><i class="icon fab fa-github"></i><a href="https://github.com/gizaoui" target="_blank">github.com</a></li>
+                <li><i class="icon fab fa-docker"></i><a href="https://hub.docker.com/search?q=gizaoui" target="_blank">hub.docker.com</a></li>
+            </ul>
+
+
+            <h2>a propos</h2>
+            <p>
+                Issu d’une formation en génie électrique, j’ai décidé de me reconvertir en informatique au début des
+                années 2000. Cela m’a permis de découvrir un monde passionnant en constante évolution.
+            </p>
+            <p>
+                Cette envie de découvrir s’est poursuivie tout au long de ma vie professionnelle. J’ai ainsi pris en
+                charge de nombreux projets de leurs conceptions à leurs réalisations. Mes connaissances dans
+                différents domaines me confèrent une aisance à communiquer et à faire aboutir l’ensemble de mes
+                projets.
+            </p>
+
+            <h2>langues</h2>
+            <p>
+                Français, langue maternelle
+                <br>
+                Anglais, compétence professionnelle
+            </p>
+
         </nav>
 
         <article class="content">
-            <span class="text-blue">Expériences professionelles</span>
+            <h2>Expériences professionelles</h2>
 
             <!--  ACOSS -->
             <fieldset>
                 <legend>
-                    <span class="text-blue">ACOSS</span>
+                    ACOSS
                 </legend>
-                <i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/Yy9JWcowLfq84Tdd7" target="_blank">Toulouse (à distance)</a><br>
-                <strong>Avril 2024 <i class="fas fa-long-arrow-alt-right"></i> Mai 2024</strong><br>
-                <strong>Release Manager</strong><br>
-                Agence centrale des organismes de sécurité sociale
-                </p>
+                <ul class="context-list">
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/Yy9JWcowLfq84Tdd7" target="_blank">Toulouse (à distance)</a></li>
+                    <li><strong>Avril 2024 <i class="fas fa-long-arrow-alt-right"></i> Mai 2024</strong></li>
+                    <li><strong>Release Manager</strong></li>
+                    <li><strong>Activité : </strong>Agence centrale des organismes de sécurité sociale</li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Déploiement d’applications et de base de données conteneurisées.</li>
                     <li>Build / Test de projets par intégration continue.</li>
                 </ul>
 
-                <h4 class="skills">Technologies</h4>
+                <h3 class="skills">Technologies</h3>
                 <ul class="skills">
                     <li><i class="icon fas fa-check text-darkblue"></i>Kubernetes, Helm, Minikube, Docker, Docker-compose, Gitlab-ci (intégration continue)</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>Java, Spring boot, API Rest</li>
@@ -87,18 +83,19 @@
                 </ul>
             </fieldset>
 
-
-
             <!--  Société générale private banking -->
             <fieldset>
                 <legend>
-                    <span class="text-blue">Société générale private banking</span>
+                    Société générale private banking
                 </legend>
-                <i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/6j2gNWwjmPc1xxfU7" target="_blank">Monaco</a><br>
-                <strong>Octobre 2022 <i class="fas fa-long-arrow-alt-right"></i> Janvier 2024</strong><br>
-                <strong>Concepteur / dévéloppeur</strong><br>
-                Conseils en gestion financière et placements financiers
-                </p>
+
+                <ul class="context-list">
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/6j2gNWwjmPc1xxfU7" target="_blank">Monaco</a></li>
+                    <li><strong>Octobre 2022 <i class="fas fa-long-arrow-alt-right"></i> Janvier 2024</strong></li>
+                    <li><strong>Concepteur / dévéloppeur</strong></li>
+                    <li><strong>Activité : </strong>Conseils en gestion financière et placements financiers</li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Conception d’un projet <i>CRM</i> de traitement d'anomalie.</li>
                     <li>Déploiement & Administration bdd PosgreSQL.</li>
@@ -110,7 +107,7 @@
                     <li>Reverse engineering et optimisation d’applications.</li>
                 </ul>
 
-                <h4 class="skills">Technologies</h4>
+                <h3 class="skills">Technologies</h3>
                 <ul class="skills">
                     <li><i class="icon fas fa-check text-darkblue"></i>Java, Spring boot, Spring security, Spring data JPA, Dotnet</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>AngularJS, JavaScript, Bootstrap, HTML, CSS</li>
@@ -125,42 +122,46 @@
             <!--  Bananamoon -->
             <fieldset>
                 <legend>
-                    <span class="text-blue">Bananamoon</span>
+                    Bananamoon
                 </legend>
-                <i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/BTb9REaijM5KRVQA7" target="_blank">Monaco</a><br>
-                <strong>Avril 2022 <i class="fas fa-long-arrow-alt-right"></i> Septembre 2022</strong><br>
-                <strong>Concepteur / dévéloppeur</strong><br>
-                Production et vente de vêtements & accessoires
-                </p>
+
+                <ul class="context-list">
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/BTb9REaijM5KRVQA7" target="_blank">Monaco</a></li>
+                    <li><strong>Avril 2022 <i class="fas fa-long-arrow-alt-right"></i> Septembre 2022</strong></li>
+                    <li><strong>Concepteur / dévéloppeur</strong></li>
+                    <li><strong>Activité : </strong>Production et vente de vêtements & accessoires</li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Intégration de flux de données via l'ERP OrliWeb (commande, bon de préparation, stock, …).</li>
                     <li>Importation de données au format CSV sous Oracle (SQL LOADER).</li>
                     <li>Scripting de traitement de données.</li>
                 </ul>
 
-                <h4 class="skills">Technologies</h4>
+                <h3 class="skills">Technologies</h3>
                 <ul class="skills">
                     <li><i class="icon fas fa-check text-darkblue"></i>ERP OrliWeb (Cegid)</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>Dotnet, Visual Studio</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>Python, Pandas, Numpy</li>
-                    <li><i class="icon fas fa-check text-darkblue"></i> Oracle 11G, SQLite</li>
+                    <li><i class="icon fas fa-check text-darkblue"></i>Oracle 11G, SQLite</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>Windows Server 2008</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>Visual Studio, Visual Studio Code</li>
                 </ul>
             </fieldset>
 
-
             <!--  Engie  -->
             <fieldset>
                 <legend>
-                    <span class="text-blue">Engie</span>
+                    Engie
                 </legend>
 
-                <i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/LbRxTWwit3Et1jdn8" target="_blank">CEA Cadarache</a><br>
-                <strong>Juin 2020 <i class="fas fa-long-arrow-alt-right"></i> Mars 2022</strong><br>
-                <strong>Concepteur / dévéloppeur & Gestion d'un projet GED</strong><br>
-                Centre de recherche sur la fusion thermonucléaire
-                </p>
+                <ul class="context-list">
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/LbRxTWwit3Et1jdn8" target="_blank">CEA Cadarache</a></li>
+                    <li><strong>Juin 2020 <i class="fas fa-long-arrow-alt-right"></i> Mars 2022</strong></li>
+                    <li><strong>Concepteur / dévéloppeur & Gestion d'un projet GED</strong></li>
+                    <li><strong>Activité : </strong>Centre de recherche sur la fusion thermonucléaire</li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Administration / intégration / maintenance d'un outil de gestion documentaire (<a href="https://start.docuware.com/fr/" target="_blank">DOCUWARE</a>).</li>
                     <li>Conception / développement d’application décisionnelle.</li>
@@ -169,7 +170,7 @@
                     <li>Administration d’environnement serveur Windows et de base de données SQL Server.</li>
                 </ul>
 
-                <h4 class="skills">Technologies</h4>
+                <h3 class="skills">Technologies</h3>
                 <ul class="skills">
                     <li><i class="icon fas fa-check text-darkblue"></i><a href="https://start.docuware.com/fr/" target="_blank">DOCUWARE</a></li>
                     <li><i class="icon fas fa-check text-darkblue"></i>Dotnet, ASP.net, Java</li>
@@ -182,24 +183,26 @@
                 </ul>
             </fieldset>
 
-
             <!--  Française des de jeux -->
             <fieldset>
                 <legend>
-                    <span class="text-blue">Française des de jeux</span>
+                    Française des de jeux
                 </legend>
-                <i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/H74s2Vo3TDvM3Enh6" target="_blank">Vitrolles</a><br>
-                <strong>Juin 2019 <i class="fas fa-long-arrow-alt-right"></i> Février 2020</strong><br>
-                <strong>Test et validation</strong><br>
-                Campagne de test & validation du jeu "Parions Sport en Ligne"
-                </p>
+
+                <ul class="context-list">
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/H74s2Vo3TDvM3Enh6" target="_blank">Vitrolles</a></li>
+                    <li><strong>Juin 2019 <i class="fas fa-long-arrow-alt-right"></i> Février 2020</strong></li>
+                    <li><strong>Test et validation</strong></li>
+                    <li><strong>Activité : </strong>Campagne de test & validation du jeu <i>Parions Sport en Ligne</i></li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Maintenance de script de test de charge.</li>
                     <li>Rétro-ingénierie d’un projet de test.</li>
                     <li>Portage d'un projet du langage C en JavaScript.</li>
                 </ul>
 
-                <h4 class="skills">Technologies</h4>
+                <h3 class="skills">Technologies</h3>
                 <ul class="skills">
                     <li><i class="icon fas fa-check text-darkblue"></i>ALM Performance Center, VuGen</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>C, JavaScript, NodeJs</li>
@@ -212,19 +215,22 @@
             <!--  ACOSS -->
             <fieldset>
                 <legend>
-                    <span class="text-blue">ACOSS</span>
+                    ACOSS
                 </legend>
-                <i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/hQVofwTtCiWqVBHr9" target="_blank">Sophia Antipolis</a><br>
-                <strong>Novembre 2018 <i class="fas fa-long-arrow-alt-right"></i> Avril 2019</strong><br>
-                <strong>Développeur</strong><br>
-                Agence centrale des organismes de sécurité sociale
-                </p>
+
+                <ul class="context-list">
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/hQVofwTtCiWqVBHr9" target="_blank">Sophia Antipolis</a></li>
+                    <li><strong>Novembre 2018 <i class="fas fa-long-arrow-alt-right"></i> Avril 2019</strong></li>
+                    <li><strong>Développeur</strong></li>
+                    <li><strong>Activité : </strong>Agence centrale des organismes de sécurité sociale</li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Maintenance d'applications backend (API Rest & SOAP).</li>
                     <li>Scripting d'importation de données.</li>
                 </ul>
 
-                <h4 class="skills">Technologies</h4>
+                <h3 class="skills">Technologies</h3>
                 <ul class="skills">
                     <li><i class="icon fas fa-check text-darkblue"></i>Spring Boot, JPA, Struts</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>API Rest, SOAP</li>
@@ -235,17 +241,19 @@
                 </ul>
             </fieldset>
 
-
             <!--  Rectorat d’Aix-Marseille -->
             <fieldset>
                 <legend>
-                    <span class="text-blue">Rectorat d’Aix-Marseille</span>
+                    Rectorat d’Aix-Marseille
                 </legend>
-                <i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/pCJvMkmksnEiDwJ49" target="_blank">Aix-en-Provence</a><br>
-                <strong>Novembre 2017 <i class="fas fa-long-arrow-alt-right"></i> Octobre 2018</strong><br>
-                <strong>Test & validation</strong><br>
-                Campagne de test & validation du système d’information des ressources humaine de l’éducation National (Projet SIRHEN)
-                </p>
+
+                <ul class="context-list">
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/pCJvMkmksnEiDwJ49" target="_blank">Aix-en-Provence</a></li>
+                    <li><strong>Novembre 2017 <i class="fas fa-long-arrow-alt-right"></i> Octobre 2018</strong></li>
+                    <li><strong>Test & validation</strong></li>
+                    <li><strong>Activité : </strong>Campagne de test & validation du système d’information des ressources humaine de l’éducation National (Projet <i>SIRHEN</i>)</li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Définition de plans de test.</li>
                     <li>Rédaction des bilans de test de charge.</li>
@@ -254,7 +262,7 @@
                     <li>Déploiement de serveurs d’injection.</li>
                 </ul>
 
-                <h4 class="skills">Technologies</h4>
+                <h3 class="skills">Technologies</h3>
                 <ul class="skills">
                     <li><i class="icon fas fa-check text-darkblue"></i>Gatling, Jmeter, Selenium</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>Scala</li>
@@ -269,41 +277,46 @@
                 <legend>
                     <span class="text-blue">CGSI</span>
                 </legend>
-                <i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/pCJvMkmksnEiDwJ49" target="_blank">Aix-en-Provence</a><br>
-                <strong>Juin 2017 <i class="fas fa-long-arrow-alt-right"></i> Septembre 2017</strong><br>
-                <strong>Développeur</strong><br>
-                Editeur et intégrateur d'ERP du métier du BTP
-                </p>
+
+                <ul class="context-list">
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/pCJvMkmksnEiDwJ49" target="_blank">Aix-en-Provence</a></li>
+                    <li><strong>Juin 2017 <i class="fas fa-long-arrow-alt-right"></i> Septembre 2017</strong></li>
+                    <li><strong>Développeur</strong></li>
+                    <li><strong>Activité : </strong>Editeur et intégrateur d'ERP du métier du BTP</li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Portage d'un projet Oracle Forms vers Oracle ADF.</li>
                     <li>Déploiement de base de données Oracle.</li>
                     <li>Maintenance de scripts PL/SQL.</li>
                 </ul>
 
-                <h4 class="skills">Technologies</h4>
+                <h3 class="skills">Technologies</h3>
                 <ul class="skills">
                     <li><i class="icon fas fa-check text-darkblue"></i>Java, Oracle ADF, PL/SQL</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>Oracle, MySQL</li>
                 </ul>
             </fieldset>
 
-
             <!--  Monext -->
             <fieldset>
                 <legend>
-                    <span class="text-blue">Monext</span>
+                    Monext
                 </legend>
-                <i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/pCJvMkmksnEiDwJ49" target="_blank">Aix-en-Provence</a><br>
-                <strong>Décembre 2016 <i class="fas fa-long-arrow-alt-right"></i> Mars 2017</strong><br>
-                <strong>Intégrateur</strong><br>
-                Solutions de paiements électroniques
-                </p>
+
+                <ul class="context-list">
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/pCJvMkmksnEiDwJ49" target="_blank">Aix-en-Provence</a></li>
+                    <li><strong>Décembre 2016 <i class="fas fa-long-arrow-alt-right"></i> Mars 2017</strong></li>
+                    <li><strong>Intégrateur</strong></li>
+                    <li><strong>Activité : </strong>Solutions de paiements électroniques</li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Maintenance de scripts d’exploitation.</li>
                     <li>Déploiement d’environnement de test.</li>
                 </ul>
 
-                <h4 class="skills">Technologies</h4>
+                <h3 class="skills">Technologies</h3>
                 <ul class="skills">
                     <li><i class="icon fas fa-check text-darkblue"></i>Control-M, Shell</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>PostgeSQL</li>
@@ -311,24 +324,25 @@
                 </ul>
             </fieldset>
 
-
             <!--  BU Nice Valrose -->
             <fieldset>
                 <legend>
-                    <span class="text-blue">BU Nice Valrose</span>
+                    BU Nice Valrose
                 </legend>
-                <i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/vB3oPLjuyAdaasR67" target="_blank">Nice</a><br>
-                <strong>Décembre 2016 <i class="fas fa-long-arrow-alt-right"></i> Mars 2017</strong><br>
-                <strong>Administrateur / Concepteur développeur</strong><br>
 
-                </p>
+                <ul class="context-list">
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/vB3oPLjuyAdaasR67" target="_blank">Nice</a></li>
+                    <li><strong>Juin 2014 <i class="fas fa-long-arrow-alt-right"></i> Mai 2016</strong></li>
+                    <li><strong>Administrateur / Concepteur développeur</strong></li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Refonte d’un portail d’un <a href="http://revel.unice.fr/" target="_blank">site de publication de revues électroniques</a>.</li>
                     <li>Administration/Intégration d'environnement Linux.</li>
                     <li>Configuration d'une passerelle permettant le filtrage et la redirection de paquets de données par IPTables entre deux cartes réseaux.</li>
                 </ul>
 
-                <h4 class="skills">Technologies</h4>
+                <h3 class="skills">Technologies</h3>
                 <ul class="skills">
                     <li><i class="icon fas fa-check text-darkblue"></i>PHP5</li>
                     <li><i class="icon fas fa-check text-darkblue"></i><a href="https://www.openedition.org/16884" target="_blank">LODEL</a></li>
@@ -340,18 +354,21 @@
             <!--  April -->
             <fieldset>
                 <legend>
-                    <span class="text-blue">April</span>
+                    April
                 </legend>
-                <i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/KahB2R4xLXSv6aNH6" target="_blank">Lyon</a><br>
-                <strong>Mars 2014 <i class="fas fa-long-arrow-alt-right"></i> Mai 2014</strong><br>
-                <strong>Développeur</strong><br>
-                Vente de produits d'assurance
-                </p>
+
+                <ul class="context-list">
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/KahB2R4xLXSv6aNH6" target="_blank">Lyon</a></li>
+                    <li><strong>Mars 2014 <i class="fas fa-long-arrow-alt-right"></i> Mai 2014</strong></li>
+                    <li><strong>Développeur</strong></li>
+                    <li><strong>Activité : </strong>Vente de produits d'assurance</li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Maintenance d'une interface de vente de produits d'assurance.</li>
                 </ul>
 
-                <h4 class="skills">Technologies</h4>
+                <h3 class="skills">Technologies</h3>
                 <ul class="skills">
                     <li><i class="icon fas fa-check text-darkblue"></i>PHP5, Java</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>Apache, Tomcat</li>
@@ -362,19 +379,22 @@
             <!--  Docapost -->
             <fieldset>
                 <legend>
-                    <span class="text-blue">Docapost</span>
+                    Docapost
                 </legend>
-                <i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/wL3KjMT7y3Rx964L9" target="_blank">Sophia Antipolis</a><br>
-                <strong>Avril 2011 <i class="fas fa-long-arrow-alt-right"></i> Juillet 2012</strong><br>
-                <strong>Développeur</strong><br>
-                Diffusion de documents numérisés des greffes des tribunaux de commerce
-                </p>
+
+                <ul class="context-list">
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/wL3KjMT7y3Rx964L9" target="_blank">Sophia Antipolis</a></li>
+                    <li><strong>Avril 2011 <i class="fas fa-long-arrow-alt-right"></i> Juillet 2012</strong></li>
+                    <li><strong>Développeur</strong></li>
+                    <li><strong>Activité : </strong>Diffusion de documents numérisés des greffes des tribunaux de commerce</li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Scripting de traitements de données.</li>
                     <li>Portage d'application Pro*C/C++ en Java Spring batch.</li>
                 </ul>
 
-                <h4 class="skills">Technologies</h4>
+                <h3 class="skills">Technologies</h3>
                 <ul class="skills">
                     <li><i class="icon fas fa-check text-darkblue"></i>Java, Pro*C/C++, PLSQL, Shell</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>Oracle (11G)</li>
@@ -386,20 +406,23 @@
             <!--  SPIE -->
             <fieldset>
                 <legend>
-                    <span class="text-blue">SPIE</span>
+                    SPIE
                 </legend>
-                <i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/Qn71v82c1oXbJbgG7" target="_blank">Vallauris</a><br>
-                <strong>Mai 2010 <i class="fas fa-long-arrow-alt-right"></i> Mars 2011</strong><br>
-                <strong>Concepteur développeur / Administrateur Linux & Oracle</strong><br>
-                Vente et développement d'infrastructure logistique lié au transport urbain.
-                </p>
+
+                <ul class="context-list">
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/Qn71v82c1oXbJbgG7" target="_blank">Vallauris</a></li>
+                    <li><strong>Mai 2010 <i class="fas fa-long-arrow-alt-right"></i> Mars 2011</strong></li>
+                    <li><strong>Concepteur développeur / Administrateur Linux & Oracle</strong></li>
+                    <li><strong>Activité : </strong>Vente et développement d'infrastructure logistique lié au transport urbain.</li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Conception de tableaux de bord lié à la qualité de service des usagers.</li>
                     <li>Scripting de traitement de données de localisation du tramway de Lyon (SYTRAL).</li>
                     <li>Déploiement de base de données Oracle sous Linux. Sauvegarde et restauration.</li>
                 </ul>
 
-                <h4 class="skills">Technologies</h4>
+                <h3 class="skills">Technologies</h3>
                 <ul class="skills">
                     <li><i class="icon fas fa-check text-darkblue"></i>PHP5, C, Pro*C, PLSQL</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>Oracle (10G)</li>
@@ -408,79 +431,96 @@
                 </ul>
             </fieldset>
 
-
             <!--  Orange -->
             <fieldset>
                 <legend>
-                    <span class="text-blue">Orange</span>
+                    Orange
                 </legend>
-                <i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/bXKNKxy2ZbFSjiXb9" target="_blank">Sophia Antipolis</a><br>
-                <strong>Février 2009 <i class="fas fa-long-arrow-alt-right"></i> Juillet 2009</strong><br>
-                <strong>Développeur</strong><br>
-                </p>
+
+                <ul class="context-list">
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/bXKNKxy2ZbFSjiXb9" target="_blank">Sophia Antipolis</a></li>
+                    <li><strong>Février 2009 <i class="fas fa-long-arrow-alt-right"></i> Juillet 2009</strong></li>
+                    <li><strong>Développeur</strong></li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Maintenance d’une application permettant de consigner des données de configuration de routeurs.</li>
                 </ul>
 
-                <h4 class="skills">Technologies</h4>
+                <h3 class="skills">Technologies</h3>
                 <ul class="skills">
                     <li><i class="icon fas fa-check text-darkblue"></i>Java, SOAP</li>
                 </ul>
             </fieldset>
 
-
-
             <!--  BPCE -->
             <fieldset>
                 <legend>
-                    <span class="text-blue">BPCE</span>
+                    BPCE
                 </legend>
-                <i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/72XZMo5HWLHNyMFGA" target="_blank">Aix-en-Provence</a><br>
-                <strong>Octobre 2008 <i class="fas fa-long-arrow-alt-right"></i> Janvier 2009</strong><br>
-                <strong>Concepteur développeur</strong><br>
-                Gestion des risques dans l'attribution de crédits bancaires (normes Bâle II).
-                </p>
+
+                <ul class="context-list">
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/72XZMo5HWLHNyMFGA" target="_blank">Aix-en-Provence</a></li>
+                    <li><strong>Octobre 2008 <i class="fas fa-long-arrow-alt-right"></i> Janvier 2009</strong></li>
+                    <li><strong>Développeur</strong></li>
+                    <li><strong>Activité : </strong>Gestion des risques dans l'attribution de crédits bancaires (normes Bâle II)</li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Maintenance applicative.</li>
                 </ul>
 
-                <h4 class="skills">Technologies</h4>
+                <h3 class="skills">Technologies</h3>
                 <ul class="skills">
                     <li><i class="icon fas fa-check text-darkblue"></i>Shell, PL/SQL, Open Cobol</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>Oracle</li>
                 </ul>
             </fieldset>
 
-
             <!--  Air France -->
             <fieldset>
                 <legend>
-                    <span class="text-blue">Air France</span>
+                    Air France
                 </legend>
-                <i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/j9AabNKds9NxB9eC8" target="_blank">Aix-en-Provence</a><br>
-                <strong>Novembre 2004 <i class="fas fa-long-arrow-alt-right"></i> Septembre 2008</strong><br>
-                <strong>Concepteur développeur</strong><br><br>
-                <strong><u>Projet ARIES</u> : </strong>Maintenance d'un progiciel de vente de produits de voyage pour des clients grands comptes.
-                </p>
+
+                <ul class="context-list">
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/bXKNKxy2ZbFSjiXb9" target="_blank">Sophia Antipolis</a></li>
+                    <li><strong>Novembre 2004 <i class="fas fa-long-arrow-alt-right"></i> Septembre 2008</strong></li>
+                    <li><strong>Concepteur développeur</strong></li>
+                    <li><strong>Activité : </strong>Transport aérien</li>
+                </ul>
+
+                <br><br>
+
+                <ul class="context-list">
+                    <li><strong>Projet ARIES : </strong>Maintenance d'un progiciel de vente de produits de voyage pour des clients grands comptes</li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Conception d’un serveur d'interface C++ (socket, thread, mutex) permettant à un progiciel d'effectuer des paiements par carte bancaire.</li>
                     <li>Développement d'un plugin de reporting permettant l'exportation de documents (fature, statistique).</li>
                     <li>Maintenance de script de traitement de données (regex).</li>
                 </ul>
-                <h4 class="skills">Technologies</h4>
+
+                <h3 class="skills">Technologies</h3>
                 <ul class="skills">
                     <li><i class="icon fas fa-check text-darkblue"></i>C++, Java</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>Progress SQL</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>Tomcat, WebSphere</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>Crystal Report</li>
                 </ul>
-                <br>
-                <strong><u>CARGO</u> : </strong>Maintenance d'un progiciel de vente de produits de voyage pour des clients grands comptes.
-                </p>
+
+                <br><br>
+
+                <ul class="context-list">
+                    <li><strong>CARGO : </strong>Fret</li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Maintenance d’applications front & backend.</li>
                 </ul>
-                <h4 class="skills">Technologies</h4>
+
+                <h3 class="skills">Technologies</h3>
                 <ul class="skills">
                     <li><i class="icon fas fa-check text-darkblue"></i>C++, Java</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>Oracle</li>
@@ -490,20 +530,23 @@
             <!--  SLE -->
             <fieldset>
                 <legend>
-                    <span class="text-blue">SLE</span>
+                    SLE
                 </legend>
-                <i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/xsuaQJMgKwByjeBy9" target="_blank">Nice</a><br>
-                <strong>Mars 2000 <i class="fas fa-long-arrow-alt-right"></i> Janvier 2004</strong><br>
-                <strong>Développeur</strong><br>
-                Vente et développement d'infrastructure logistique lié au transport urbain.
-                </p>
+
+                <ul class="context-list">
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/xsuaQJMgKwByjeBy9" target="_blank">Nice</a></li>
+                    <li><strong>Mars 2000 <i class="fas fa-long-arrow-alt-right"></i> Janvier 2004</strong></li>
+                    <li><strong>Développeur</strong></li>
+                    <li><strong>Activité : </strong>Vente et développement d'infrastructure logistique lié au transport urbain</li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Développement d’applications statistiques en lien avec la qualité de service des usagers.</li>
                     <li>Scripting de traitement de données de localisation des bus de Londres.</li>
                     <li>Maintenance d’applications graphiques.</li>
                 </ul>
 
-                <h4 class="skills">Technologies</h4>
+                <h3 class="skills">Technologies</h3>
                 <ul class="skills">
                     <li><i class="icon fas fa-check text-darkblue"></i>C, Pro*C, PL/SQL, VBA</li>
                     <li><i class="icon fas fa-check text-darkblue"></i>Oracle, Ms Access</li>
@@ -511,30 +554,29 @@
                 </ul>
             </fieldset>
 
-
             <!--  Augier -->
             <fieldset>
                 <legend>
-                    <span class="text-blue">Augier</span>
+                    Augier
                 </legend>
-                <i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/K4ZneT2Z4hQUNjnB8" target="_blank">Carros</a><br>
-                <strong>Mars 1998 <i class="fas fa-long-arrow-alt-right"></i> Janvier 1999</strong><br>
-                <strong>Technicien bureau d'étude</strong><br>
-                Etude et production de système de gestion d'énergie
-                </p>
+
+                <ul class="context-list">
+                    <li><i class="icon fas fa-map-marker-alt text-blue"></i><a href="https://maps.app.goo.gl/K4ZneT2Z4hQUNjnB8" target="_blank">Carros</a></li>
+                    <li><strong>Mars 1998 <i class="fas fa-long-arrow-alt-right"></i> Janvier 1999</strong></li>
+                    <li><strong>Technicien bureau d'étude</strong></li>
+                    <li><strong>Activité : </strong>Etude et production de système de gestion d'énergie</li>
+                </ul>
+
                 <ul class="experience-list">
                     <li>Études, développements et essais de cartes électroniques : réalisation d’un projet assurant le balisage d’une piste d’atterrissage par système asservi</li>
                     <li>Programmation assembleur (Texas 370, Motorola 68000)</li>
                 </ul>
-
             </fieldset>
+
 
         </article>
 
-        <footer class="main-footer"></footer>
     </div>
-
 </body>
-
 
 </html>
